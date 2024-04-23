@@ -21,7 +21,7 @@ const firestore = getFirestore(app);
 
 
 async function displayDataInTable() {
-    const uid = 'NTqIUsvcrtSj3zO9zdY9X4vUELf2';
+    const uid = 'neFsB35FD3XJjE15REZrkClMmy83';
 
     if (!uid) {
         console.error('User not authenticated');
