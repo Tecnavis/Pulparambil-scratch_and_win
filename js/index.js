@@ -45,7 +45,7 @@ async function displayDataInTable() {
             document.getElementById('displayCity').textContent = data.city
         });
     } catch (error) {
-        console.error('Error displaying data in table:', error);
+        // console.error('Error displaying data in table:', error);
     }
 }
 
